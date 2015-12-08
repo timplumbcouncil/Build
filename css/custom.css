@@ -1,0 +1,113 @@
+.header {background-color:#173178; height: 157px}
+.logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 20px 0 0 14px}
+.container {position: relative;}
+
+.utilityNav {background-color: #59b200;  border-radius: 5px; float:right; margin: 14px 0}
+.utilityNav ul { padding: 3px; font-size: 11px; margin: 0;}
+.utilityNav li {border-right:1px solid #ffffff; padding: 0 10px 0 5px; display:inline}
+.utilityNav ul li:last-child  {border: none;}
+
+
+.utilityNav a {color:#ffffff;}
+.searchTool {clear: both; float: right; background-color: #ffffff; padding: 3px;}
+.searchTool input {border: none;}
+
+.accessibility {float:left;}
+.profiles {float:right;}
+
+.hiddenText {display:none;}
+
+.mainNav ul { padding:0; display: inline; margin:0}
+.mainNav li {display: inline; padding: 0 7px; border-right: #ffffff 1px solid; margin: 0;}
+.mainNav ul li:last-child  {border: none;}
+.mainNav ul li:first-child  {padding-left: 0}
+.mainNav {font-family: 'Oswald', sans-serif; font-size: 16px; padding: 0 10px 0 0; text-transform: uppercase; font-weight: 800; margin-top: 20px }
+.mainNav a {color:#ffffff;}
+.mainNavHolder {clear:both; padding-top: :2px;}
+
+
+.sideContent select {width: 100%;}
+
+.sideNav ul {margin:20px 0 0 0; padding: 0; background: url(../images/inactive.gif) #ffffff repeat-y left}
+.sideNav li {list-style: none; }
+
+.sideNav li a {color:#102d80; padding: 5px 0 5px 50px;width:100%; display: block;}
+.sideNav ul ul {margin: 0; padding: 0; }
+.sideNav ul ul li {margin: 0 0 0 10px; padding: 0; background: none;}
+.sideNav li li a {color:#102d80; padding: 5px 0 5px 50px; width:100%; display: block;}
+
+.hr {background: url(../images/nav_hr.png) 8px 6px no-repeat }
+.oc {background: url(../images/nav_oc.png) 8px 6px no-repeat }
+.ld {background: url(../images/nav_learning.png) 8px 6px no-repeat }
+.po {background: url(../images/nav_policies.png) 8px 6px no-repeat }
+.co {background: url(../images/nav_corporate.png) 8px 6px no-repeat }
+.it {background: url(../images/nav_it.png) 8px 6px no-repeat }
+.cp {background: url(../images/nav_comms.png) 8px 6px no-repeat }
+.tr {background: url(../images/nav_trans.png) 8px 6px no-repeat }
+.mc {background: url(../images/nav_meeting.png) 8px 6px no-repeat }
+.es {background: url(../images/nav_equip.png) 8px 6px no-repeat }
+.pr {background: url(../images/nav_pr.png) 8px 6px no-repeat }
+.sc {background: url(../images/nav_canteen.png) 8px 6px no-repeat }
+.tp {background: url(../images/nav_travel.png) 8px 6px no-repeat }
+.gd {background: url(../images/nav_geo.png) 8px 6px no-repeat }
+.ti {background: url(../images/nav_tic.png) 8px 6px no-repeat }
+
+.sideNav .active  a {background: url(../images/active.gif) 39px 0 no-repeat; color:#ffffff;}
+
+.sideNav ul li ul a {background: url(../images/children.gif) 30px 0 no-repeat !important; color:#173178 !important; }
+
+h3, h2 {font-family: 'Oswald', sans-serif; color:#173178; font-size: 18px ;font-weight: 800}
+h2 {font-size: 22px}
+
+.contentArea {background: #f3f4f8; margin-top: 14px; padding: 14px;}
+.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
+.contentArea h2, .contentArea h3 {padding:0; margin: 0 0 14px 0}
+.contentArea p {}
+
+.mobileNav {width:100%; color: #ffffff; text-align: right}
+
+.mobileNavToggle {background: url(../images/main_nav_mobile.png); background-size: 100%; width: 40px; height: 40px; display: block; float: right; margin-right: 14px }
+
+.mobileMenu {position: absolute; top:0; left: 0; background-color: #dddddd; width:100%;  display: block; top: 157px; z-index: 10; opacity: 0.96; display: none;}
+.mobileUtilityNav {background-color: #59b200; width:100%;list-style: none}
+.mobileMainNav {background-color: #173178; width:100%;list-style: none}
+.mobileMenu ul { margin: 0; padding: 0;}
+.mobileMenu li {padding: 7px;}
+.mobileMenu a {color: #ffffff; width: 100%; display: block;}
+.mobileSearch {background-color: #ffffff; width: 100%; padding: 7px;}
+.mobileSearch input {width: 90%;}
+
+.sideMobileNavIcons {width: 50px; background-color: #95a2c4; display: block; position: absolute; top:183px; left: 0; z-index: 5; padding-top: 4px}
+.iconStack {width: 40px; height: 30px; display: block; float: left; margin: 0 0 0 5px;}
+
+.sideMobileNavList {position: absolute; width:277px; top: 184px; z-index: 4; left: 10px; display: none;-webkit-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);
+-moz-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);
+box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);}
+
+.sideMobileNavList .sideNav ul {width:279px; margin:0;}
+
+li a:active {background-color: #173178 ; color:#ffffff; display: block;}
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
+    	.header {background-color:#173178; height: 168px}
+		.mainNavHolder { padding-top:2px;}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 0px}
+    	.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 0px}
+		.mainNavHolder { padding-top:0px;}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
