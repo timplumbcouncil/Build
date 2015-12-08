@@ -18,7 +18,7 @@
     <body>
       <main>
         <div class="container">
-         
+
           <div class="row header">
             <header>
               <div class="col-sm-3">
@@ -65,7 +65,7 @@
          </div>
        </nav>
      </div>
-     
+
      <div class="row">
 
        <div class="col-md-9 pull-right col-sm-12 contentArea">
@@ -95,16 +95,7 @@
           </select>
           <div class="sideNav">
             <ul class="sideNavUL">
-             <li class="hr"><a href="#">HR</a></li>
-             <li class="oc"><a href="#">Occupational Health</a></li>
-             <li class="ld"><a href="#">Learning &amp; Development</a> </li>
-             <li class="po"><a href="#">Policies</a></li>
-             <li class="co"><a href="#">Council File Plan</a></li>
-             <li class="it"><a href="#">IT Helpdesk</a></li>
-             <li class="cp"><a href="#">Communications &amp; Press</a></li>
-             <li class="tr"><a href="#">Translation</a></li>
-             <li class="mc"><a href="#">Meeting &amp; Conference Rooms</a></li>
-             <li class="es   active"><a href="#">Equipment &amp; Stationary</a>
+             <li class="hr"><a href="#">HR</a>
               <ul>
                <li><a href="#">Our People</a></li>
                <li><a href="#">Managers</a></li>
@@ -114,6 +105,15 @@
                <li><a href="#">What's On</a></li>
                <li><a href="#">Who's Who</a></li>
              </ul></li>
+             <li class="oc"><a href="#">Occupational Health</a></li>
+             <li class="ld"><a href="#">Learning &amp; Development</a> </li>
+             <li class="po"><a href="#">Policies</a></li>
+             <li class="co"><a href="#">Council File Plan</a></li>
+             <li class="it"><a href="#">IT Helpdesk</a></li>
+             <li class="cp"><a href="#">Communications &amp; Press</a></li>
+             <li class="tr"><a href="#">Translation</a></li>
+             <li class="mc"><a href="#">Meeting &amp; Conference Rooms</a></li>
+             <li class="es   active"><a href="#">Equipment &amp; Stationary</a></li>
              <li class="pr"><a href="#">Procurement</a></li>
              <li class="sc"><a href="#">Staff Canteens</a></li>
              <li class="tp"><a href="#">Travel &amp; Parking</a></li>
@@ -122,9 +122,12 @@
            </ul>
          </div>
        </nav>
+
+
+       
      </div>
 
-     
+
 
    </div>
 
@@ -159,7 +162,7 @@ function populateSideNav() {
   {
     $(".sideMobileNavIcons").append("<div class='"+$(this).attr("class")+" iconStack' onclick='javascript:toggleSideMenu()''><span class='hiddenText'>Expand mobile menu</span></div>")
   }
-  
+
 })
 
  $(".sideMobileNavList").html("<div class='sideNav'>" + $(".sideNav").html() + "</div>")
