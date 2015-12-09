@@ -74,7 +74,7 @@ h2 {font-size: 22px}
 .mobileMenu ul { margin: 0; padding: 0;}
 .mobileMenu li {padding: 7px;}
 .mobileMenu a {color: #ffffff; width: 100%; display: block;}
-.mobileSearch {background-color: #ffffff; float:left; padding: 6px; margin: 4px 0 0 14px; color:#173178;}
+.mobileSearch {background-color: #ffffff; float:left; padding: 6px; margin: 4px 0 0 14px; color:#173178; width: 215px;}
 .mobileSearch input {width: 86%; border: none;}
 
 .sideMobileNavIcons {width: 50px; background-color: #95a2c4; display: block; position: absolute; top:183px; left: 0; z-index: 5; padding-top: 4px}
@@ -84,12 +84,12 @@ h2 {font-size: 22px}
 
 .sideMobileNavList .sideNav ul {width:279px; margin:0;}
 
-.closeMenu   {background: url(../images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -20px;top: -15px; }
+.closeMenu   {background: url(../images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -21px;top: -12px; }
 
 li a:active {background-color: #173178 ; color:#ffffff; }
 
 .footerArea {background-color:#173178; height: 157px; clear: both; margin-top: 14px}
-.dropDownMenu select {margin: 4px auto; display: block; }
+.dropDownMenu select {margin: 4px 0 4px 14px; float: left; display: block; color: #173178; width: 215px;}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
