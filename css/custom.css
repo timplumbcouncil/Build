@@ -56,13 +56,15 @@
 
 .sideNav ul li ul a {background: url(../images/children.gif) 30px 0 no-repeat !important; color:#173178 !important; }
 
-h3, h2 {font-family: 'Oswald', sans-serif; color:#173178; font-size: 18px ;font-weight: 800}
+h4, h3, h2 {font-family: 'Oswald', sans-serif; color:#173178; font-size: 18px ;font-weight: 800}
 h2 {font-size: 22px}
+h3 {font-size: 18px}
+.forumTitle h4 {color:#ffffff; font-family: 'Indie Flower', cursive;}
 
 .contentArea {background: #f3f4f8; margin-top: 14px; padding: 14px;}
 .contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
 .contentArea h2, .contentArea h3 {padding:0; margin: 0 0 14px 0}
-.contentArea p {}
+.contentArea p {line-height:22px; margin-bottom: 18px}
 
 .mobileNav {width:100%; color: #ffffff; text-align: right}
 
@@ -90,6 +92,19 @@ li a:active {background-color: #173178 ; color:#ffffff; }
 
 .footerArea {background-color:#173178; height: 157px; clear: both; margin-top: 14px}
 .dropDownMenu select {margin: 4px 0 4px 14px; float: left; display: block; color: #173178; width: 215px;}
+
+.promoBox {background-color: #f3f4f8; padding: 7px; margin-top: 14px}
+.promoBoxContent {background-color: #ffffff; padding:7px; width:100%;}
+
+.promoBoxContent input[type="submit"] {background-color: #b483e4; color: #ffffff; border: none; margin: 14px 0}
+
+.sideBarContent {margin-top: 14px}
+
+.sideLandingContent {}
+
+.forumTitle {background-color: #ff5c26; padding: 14px; color:#ffffff}
+
+label {display: inline;}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
