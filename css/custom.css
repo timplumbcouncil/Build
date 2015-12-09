@@ -86,7 +86,11 @@ box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);}
 
 .sideMobileNavList .sideNav ul {width:279px; margin:0;}
 
+.closeMenu   {background: url(../images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -20px;top: -15px; }
+
 li a:active {background-color: #173178 ; color:#ffffff; display: block;}
+
+.footerArea {background-color:#173178; height: 157px; clear: both; margin-top: 14px}
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
