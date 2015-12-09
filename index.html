@@ -21,17 +21,27 @@
 
           <div class="row header">
             <header>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-12 logoRow">
+                <div class="dropDownMenu visible-xs"> </div>
                 <a href="#" class="logo"><span class="hiddenText"><h1>Ein Pobl / Our People</h1></span></a>
               </div>
 
-              <div class="mobileNav visible-xs" ><a class="mobileNavToggle" href="#"><span class="hiddenText">Toggle mobile nav</span></a></div>
+              <div class="mobileNav visible-xs" >
+
+                <form action="#" method="get">
+               <div class="mobileSearch"> <input type="text" name="search" id="search" > <label for="search"><span class="hiddenText">Search site</span></label><img src="images/search.gif" alt="Search button"/></div>
+              </form>
+
+              <a class="mobileNavToggle" href="#"><span class="hiddenText">Toggle mobile nav</span></a>
+
+            </div>
               <div class="mobileMenu"> </div>
 
               <div class="sideMobileNavIcons visible-xs visible-sm "><a href="#"><span class="hiddenText">Side bar content</span></a></div>
               <div class="sideMobileNavList"> </div>
 
-            </header><nav> 
+            </header>
+            <nav> 
             <div class="col-sm-9  hidden-xs utility">
               <div class="utilityNav">
                 <ul class="accessibility">
@@ -85,14 +95,17 @@
 
       <div class="col-md-3 col-sm-4 hidden-xs hidden-sm sideContent pull-left">
         <nav>
+        
          <label for="iwouldliketo"> <h3> I would like to </h3></lavel>
+          <div class="jumpBox">
           <select id="iwouldliketo">
-            <option value="volvo">Choose an option</option>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+            <option value="volvo">I would like to</option>
+            <option value="volvo">Fill in an expenses sheet</option>
+            <option value="saab">Apply for an internal role</option>
+            <option value="mercedes">view the council staff forum</option>
+            <option value="audi">Find out where I can park my car</option>
           </select>
+        </div>
           <div class="sideNav">
             <ul class="sideNavUL">
              <li class="hr active"><a href="#">HR</a>
@@ -125,16 +138,18 @@
      </div>
    </div>
 
-   <footer>
+   
     <div class="row">
- <div class="col-sm-12 footerArea">
+      <footer>
+ <div class="col-md-12 footerArea">
   
-
+Content
  </div>
+ </footer>
 </div>
 
 
-   </footer>
+   
 
  </div>
 </main>

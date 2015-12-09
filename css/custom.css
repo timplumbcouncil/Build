@@ -1,5 +1,5 @@
-.header {background-color:#173178; height: 157px}
-.logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 20px 0 0 14px}
+.header {background-color:#173178; height: 170px}
+.logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 0 auto}
 .container {position: relative;}
 
 .utilityNav {background-color: #59b200;  border-radius: 5px; float:right; margin: 14px 0}
@@ -74,31 +74,31 @@ h2 {font-size: 22px}
 .mobileMenu ul { margin: 0; padding: 0;}
 .mobileMenu li {padding: 7px;}
 .mobileMenu a {color: #ffffff; width: 100%; display: block;}
-.mobileSearch {background-color: #ffffff; width: 100%; padding: 7px;}
-.mobileSearch input {width: 90%;}
+.mobileSearch {background-color: #ffffff; float:left; padding: 6px; margin: 4px 0 0 14px; color:#173178;}
+.mobileSearch input {width: 86%; border: none;}
 
 .sideMobileNavIcons {width: 50px; background-color: #95a2c4; display: block; position: absolute; top:183px; left: 0; z-index: 5; padding-top: 4px}
 .iconStack {width: 40px; height: 30px; display: block; float: left; margin: 0 0 0 5px;}
 
-.sideMobileNavList {position: absolute; width:277px; top: 184px; z-index: 4; left: 10px; display: none;-webkit-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);
--moz-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);
-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);}
+.sideMobileNavList {position: absolute; width:277px; top: 183px; z-index: 4; left: 10px; display: none;-webkit-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33); -moz-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33); box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);}
 
 .sideMobileNavList .sideNav ul {width:279px; margin:0;}
 
 .closeMenu   {background: url(../images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -20px;top: -15px; }
 
-li a:active {background-color: #173178 ; color:#ffffff; display: block;}
+li a:active {background-color: #173178 ; color:#ffffff; }
 
 .footerArea {background-color:#173178; height: 157px; clear: both; margin-top: 14px}
+.dropDownMenu select {margin: 4px auto; display: block; }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-	
+	   
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+        .logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 20px 0 0 14px}
     	.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
     	.header {background-color:#173178; height: 168px}
 		.mainNavHolder { padding-top:2px;}
