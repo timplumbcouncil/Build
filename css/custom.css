@@ -129,6 +129,8 @@ li a:active {background-color: #173178 ; color:#ffffff; }
 .newsPostedBy {clear:both; text-transform: uppercase; font-size: 11px; margin-top: 10px}
 .newsPostedDate {clear: both; font-size: 11px}
 
+.carousel-indicators {z-index: 4}
+
 label {display: inline;}
 
     /* Extra Small Devices, Phones */ 
