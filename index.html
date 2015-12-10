@@ -29,7 +29,7 @@
 
                 <form action="#" method="get">
                   <div class="dropDownMenu visible-xs"> </div>
-                  <div class="mobileSearch"> <input type="text" name="search" id="search" > <label for="search"><span class="hiddenText">Search site</span></label><img src="images/search.gif" alt="Search button"/></div>
+                  <div class="mobileSearch"> <label for="searchMobile"><span class="hiddenText">Search site</span></label><input type="text" name="search" id="searchMobile" > <img src="images/search.gif" alt="Search button"/></div>
                 </form>
 
                 <a class="mobileNavToggle" href="#"><span class="hiddenText">Toggle mobile nav</span></a>
@@ -55,7 +55,7 @@
                   </ul>
                 </div>
                 <div class="searchTool"><form action="#" method="get">
-                  <input type="text" name="search" id="search"> <label for="search"><span class="hiddenText">Search site</span></label><img src="images/search.gif" alt="Search button"/>
+                   <label for="search"><span class="hiddenText">Search site</span></label><input type="text" name="search" id="search"><img src="images/search.gif" alt="Search button"/>
                 </form>
               </div>
             </div>
@@ -98,20 +98,20 @@
     <div class="item active">
       <img src="http://placehold.it/1200x500" alt="...">
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h2>Caption Text</h2>
           <p>All full time staff are entitled to x amount days annual leave per year including bank holidays.</p>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x500" alt="...">
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h2>Caption Text</h2>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x500" alt="...">
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h2>Caption Text</h2>
       </div>
     </div>
   </div>
@@ -141,7 +141,7 @@
               </article>
 
 
-              <h2> News and updates... </h2>
+              <h3> News and updates... </h3>
 
               <!-- News entry start -->
                <div class="newsEntry">
@@ -272,7 +272,7 @@
       <div class="col-md-3 col-sm-4 hidden-xs hidden-sm sideContent pull-left">
         <nav>
 
-         <label for="iwouldliketo"> <h3> I would like to </h3></lavel>
+         <label for="iwouldliketo"> <h4> I would like to </h4></lavel>
           <div class="jumpBox">
             <select id="iwouldliketo">
               <option value="volvo">I would like to</option>
@@ -318,11 +318,11 @@
           <form>
 
             <form>
-              Username:<br>
-              <input type="text" name="firstname">
+              <label for="userName">Username:</label><br>
+              <input type="text" name="firstname" id="userName">
               <br>
-              Password:<br>
-              <input type="text" name="lastname">
+               <label for="passWord">Password:</label><br>
+              <input type="text" name="lastname" id="passWord">
               <br>
               <input type="submit" value="Submit"><br>
               <a href="#">Forgotten password</a>
