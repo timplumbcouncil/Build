@@ -1,5 +1,5 @@
 .header {background-color:#173178; height: 170px}
-.logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 0 auto}
+.logo {background-image: url(/images/logo.gif); width:170px; height: 90px; display: block; margin: 0 auto}
 .container {position: relative;}
 
 .utilityNav {background-color: #59b200;  border-radius: 5px; float:right; margin: 14px 0}
@@ -25,10 +25,9 @@
 .mainNav a {color:#ffffff;}
 .mainNavHolder {clear:both; padding-top: :2px;}
 
-
 .sideContent select {width: 100%;}
 
-.sideNav ul {margin:20px 0 0 0; padding: 0; background: url(../images/inactive.gif) #ffffff repeat-y left}
+.sideNav ul {margin:20px 0 0 0; padding: 0; background: url(/images/inactive.gif) #ffffff repeat-y left}
 .sideNav li {list-style: none; }
 
 .sideNav li a {color:#102d80; padding: 5px 0 5px 50px;width:100%; display: block;}
@@ -36,42 +35,43 @@
 .sideNav ul ul li {margin: 0 0 0 10px; padding: 0; background: none;}
 .sideNav li li a {color:#102d80; padding: 5px 0 5px 50px; width:100%; display: block;}
 
-.hr {background: url(../images/nav_hr.png) 8px 6px no-repeat }
-.oc {background: url(../images/nav_oc.png) 8px 6px no-repeat }
-.ld {background: url(../images/nav_learning.png) 8px 6px no-repeat }
-.po {background: url(../images/nav_policies.png) 8px 6px no-repeat }
-.co {background: url(../images/nav_corporate.png) 8px 6px no-repeat }
-.it {background: url(../images/nav_it.png) 8px 6px no-repeat }
-.cp {background: url(../images/nav_comms.png) 8px 6px no-repeat }
-.tr {background: url(../images/nav_trans.png) 8px 6px no-repeat }
-.mc {background: url(../images/nav_meeting.png) 8px 6px no-repeat }
-.es {background: url(../images/nav_equip.png) 8px 6px no-repeat }
-.pr {background: url(../images/nav_pr.png) 8px 6px no-repeat }
-.sc {background: url(../images/nav_canteen.png) 8px 6px no-repeat }
-.tp {background: url(../images/nav_travel.png) 8px 6px no-repeat }
-.gd {background: url(../images/nav_geo.png) 8px 6px no-repeat }
-.ti {background: url(../images/nav_tic.png) 8px 6px no-repeat }
+.hr {background: url(/images/nav_hr.png) 8px 6px no-repeat }
+.oc {background: url(/images/nav_oc.png) 8px 6px no-repeat }
+.ld {background: url(/images/nav_learning.png) 8px 6px no-repeat }
+.po {background: url(/images/nav_policies.png) 8px 6px no-repeat }
+.co {background: url(/images/nav_corporate.png) 8px 6px no-repeat }
+.it {background: url(/images/nav_it.png) 8px 6px no-repeat }
+.cp {background: url(/images/nav_comms.png) 8px 6px no-repeat }
+.tr {background: url(/images/nav_trans.png) 8px 6px no-repeat }
+.mc {background: url(/images/nav_meeting.png) 8px 6px no-repeat }
+.es {background: url(/images/nav_equip.png) 8px 6px no-repeat }
+.pr {background: url(/images/nav_pr.png) 8px 6px no-repeat }
+.sc {background: url(/images/nav_canteen.png) 8px 6px no-repeat }
+.tp {background: url(/images/nav_travel.png) 8px 6px no-repeat }
+.gd {background: url(/images/nav_geo.png) 8px 6px no-repeat }
+.ti {background: url(/images/nav_tic.png) 8px 6px no-repeat }
 
-.sideNav .active  a {background: url(../images/active.gif) 39px 0 no-repeat; color:#ffffff;}
+.sideNav .active  a {background: url(/images/active.gif) 39px 0 no-repeat; color:#ffffff;}
 
-.sideNav ul li ul a {background: url(../images/children.gif) 30px 0 no-repeat !important; color:#173178 !important; }
+.sideNav ul li ul a {background: url(/images/children.gif) 30px 0 no-repeat !important; color:#173178 !important; }
 
 h4, h3, h2 {font-family: 'Oswald', sans-serif; color:#173178; font-size: 18px ;font-weight: 800}
 h2 {font-size: 22px}
 h3 {font-size: 18px}
 .forumTitle h4 {color:#ffffff; font-family: 'Indie Flower', cursive;}
 .newsEntry h4 {font-size: 14px; color: #000000;}
-
+.sideContent h4 {margin-top: 14px}
+.contentArea h2, .contentArea h3 {padding:0; margin: 10px 0 14px 0}
+.promoBoxContent h4 {margin-top: 7px}
 
 
 .contentArea {background: #f3f4f8; margin-top: 14px; padding: 14px;}
 .contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
-.contentArea h2, .contentArea h3 {padding:0; margin: 0 0 14px 0}
 .contentArea p {line-height:22px; margin-bottom: 18px}
 
 .mobileNav {width:100%; color: #ffffff; text-align: right}
 
-.mobileNavToggle {background: url(../images/main_nav_mobile.png); background-size: 100%; width: 40px; height: 40px; display: block; float: right; margin-right: 14px }
+.mobileNavToggle {background: url(/images/main_nav_mobile.png); background-size: 100%; width: 40px; height: 40px; display: block; float: right; margin-right: 14px }
 
 .mobileMenu {position: absolute; top:0; left: 0; background-color: #dddddd; width:100%;  display: block; top: 170px; z-index: 10; opacity: 0.98; display: none; -webkit-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33); -moz-box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33); box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.33);}
 .mobileUtilityNav {background-color: #59b200; width:100%;list-style: none; border-bottom: 1px solid #458504 !important}
@@ -89,12 +89,12 @@ h3 {font-size: 18px}
 
 .sideMobileNavList .sideNav ul {width:279px; margin:0;}
 
-.closeMenu   {background: url(../images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -21px;top: -12px; }
+.closeMenu   {background: url(/images/closemenu.png); width: 37px; height: 37px; display: block; position: absolute; z-index: 8; right: -21px;top: -12px; }
 
 li a:active {background-color: #173178 ; color:#ffffff; }
 
 .footerArea {background-color:#173178; height: 115px; clear: both; margin-top: 14px}
-.footerLogo {background: url(../images/footer_logo.gif) no-repeat; width:143px; height: 70px; display: block; margin: 30px 0 0 0;}
+.footerLogo {background: url(/images/footer_logo.gif) no-repeat; width:143px; height: 70px; display: block; margin: 30px 0 0 0;}
 .dropDownMenu select {margin: 4px 0 0 14px; float: left; display: block; color: #173178; width: 215px; height:34px;}
 
 .promoBox {background-color: #f3f4f8; padding: 7px; margin-top: 14px; clear: both; float: left; width: 100%;}
@@ -124,7 +124,7 @@ li a:active {background-color: #173178 ; color:#ffffff; }
 .eventText { width: 100%;}
 .eventTextClear {clear: both; width: 100%;}
 
-.newsEntry {font-size: 12px; width: 100%;  padding: 7px; border-top: 1px solid #dbdbdb; }
+.newsEntry {font-size: 12px; width: 100%;  padding: 7px 0; border-top: 1px solid #dbdbdb; }
 .newsEntryText {font-size: 12px; }
 .newsPostedBy {clear:both; text-transform: uppercase; font-size: 11px; margin-top: 10px}
 .newsPostedDate {clear: both; font-size: 11px}
@@ -133,14 +133,9 @@ li a:active {background-color: #173178 ; color:#ffffff; }
 
 label {display: inline;}
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-	   
-    }
-
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-        .logo {background-image: url(../images/logo.gif); width:170px; height: 90px; display: block; margin: 20px 0 0 14px}
+        .logo {background-image: url(/images/logo.gif); width:170px; height: 90px; display: block; margin: 20px 0 0 14px}
     	.contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
     	.header {background-color:#173178; height: 168px}
 		.mainNavHolder { padding-top:2px;}

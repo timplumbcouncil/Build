@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 	$(".mobileNavToggle").focus(function() {
 		openMainMenu()
-	});
+	}); 
 
 	$(".iconStack").hover(function() {
 		$(this).css('cursor','pointer');
@@ -22,7 +22,7 @@ $( window ).resize(function() {
   	//$(".logoRow").prepend($(".jumpBox").html())
 
   } else {
-
+ 
 
   }
      // console.log($( window ).width())
