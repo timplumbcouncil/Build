@@ -7,7 +7,6 @@
 .utilityNav li {border-right:1px solid #ffffff; padding: 0 10px 0 5px; display:inline}
 .utilityNav ul li:last-child  {border: none;}
 
-
 .utilityNav a {color:#ffffff;}
 .searchTool {clear: both; float: right; background-color: #ffffff; padding: 3px;}
 .searchTool input {border: none;}
@@ -67,6 +66,7 @@ h3 {font-size: 1.225em}
 .contentArea {background: #f3f4f8; margin-top: 14px; padding: 14px;}
 .contentAreaPadder {background-color: #ffffff; padding: 14px; margin-left: 50px}
 .contentArea p {line-height:22px; margin-bottom: 18px}
+.contentArea a, .rightSideBarContent a, .sideMobileNavIcons a {text-decoration: underline}
 
 .mobileNav {width:100%; color: #ffffff; text-align: right}
 
@@ -111,6 +111,7 @@ li a:active {background-color: #173178 ; color:#ffffff; }
 .forumEntryText {font-size: 0.85em; }
 .forumPostedBy {clear:both; text-transform: uppercase; font-size: 0.6875em; margin-top: 10px}
 .forumPostedDate {clear: both; font-size: 0.6875em}
+.forumEntry img, .rightSideBarPromo img {float:left;}
 
 .rightSidebarMoreBar {background-color: #ff5c26; height: 18px; padding: 2px 4px 2px 0; text-align: right; width: 100%; display: block; float: left; color:#ffffff; font-size: 0.75em}
 .rightSidebarMoreBar:hover {text-decoration: none; color: #ffffff;}

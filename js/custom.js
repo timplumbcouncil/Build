@@ -1,5 +1,16 @@
 $( document ).ready(function() {
 
+ 
+    var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'css/all.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
+
+
 	populateSideNav()
 
 	$(".mobileNavToggle").focus(function() {
@@ -12,7 +23,12 @@ $( document ).ready(function() {
 		$(this).css('cursor','auto');
 	});
 
-	$(".dropDownMenu").html($(".jumpBox").html())
+	$(".dropDownMenu").html("<label for='iwouldliketoMobile'><span class='hiddenText'>I would like to</span></label>" + $(".jumpBox").html())
+
+  $(".dropDownMenu #iwouldliketo").attr("id","iwouldliketoMobile");
+
+  
+  
 
 });
 
@@ -38,6 +54,8 @@ function populateSideNav() {
 	})
 
 	$(".sideMobileNavList").html("<a class='closeMenu' href='javascript:toggleSideMenu()'><span class='hiddenText'>Close Menu</span></a><div class='sideNav'>" + $(".sideNav").html() + "</div>")
+
+
 
 	$(".sideMobileNavIcons a:first").focus(function() {
 	  toggleSideMenu()
