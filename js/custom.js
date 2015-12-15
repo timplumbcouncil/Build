@@ -3,7 +3,7 @@ $( document ).ready(function() {
  
     var cb = function() {
     var l = document.createElement('link'); l.rel = 'stylesheet';
-    l.href = 'css/all.css';
+    l.href = 'css/custom.min.css';
     var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); };
     var raf = requestAnimationFrame || mozRequestAnimationFrame ||
               webkitRequestAnimationFrame || msRequestAnimationFrame;
